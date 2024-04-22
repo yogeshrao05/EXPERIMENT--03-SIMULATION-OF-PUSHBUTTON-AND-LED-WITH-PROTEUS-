@@ -24,29 +24,40 @@ interfaces Datasheet - production data Features
  
 
 ## Procedure:
-1. click on STM 32 CUBE IDE, the following screen will appear
-2. click on FILE, click on new stm 32 project
-3. select the target to be programmed  as shown below and click on next 
-4. select the program name
-5. corresponding ioc file will be generated automatically 
-6. select the appropriate pins as gipo, in or out, USART or required options and configure 
-7. click on cntrl+S , automaticall C program will be generated 
-8. edit the program and as per required
-9. use project and build
-10. once the project is bulild 
-11. click on debug option 
-12. Creating Proteus project and running the simulation
-We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
 
-13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
-14. After creation of the circuit as per requirement as shown below 
-![image](https://user-images.githubusercontent.com/36288975/233856847-32bea88a-565f-4e01-9c7e-4f7ed546ddf6.png)
+ 1. Click on STM 32 CUBE IDE.
 
-15. Double click on the the MCU part to open settings. Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE. Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
-![image](https://user-images.githubusercontent.com/36288975/234186668-f21e74f6-8958-4eb2-899f-8e53770a5c06.png)
-16. click on debug and simulate using simulation as shown below 
+ 2. Click on FILE, click on new stm 32 project.
+ 
+ 3. Select the target to be programmed and click on next. 
 
-![image](https://user-images.githubusercontent.com/36288975/233856904-99eb708a-c907-4595-9025-c9dbd89b8879.png)
+ 4. Select the program name.
+
+ 5. Corresponding ioc file will be generated automatically. 
+
+ 6. Select the appropriate pins as gipo, in or out, USART or required options and configure.
+
+ 7. Click on cntrl+S , automaticall C program will be generated. 
+
+ 8. Edit the program and as per required. 
+
+ 9. Use project and build.  
+
+ 10. Once the project is bulild.
+
+ 11. Click on debug option. 
+
+ 12. Creating Proteus project and running the simulation.
+ We are now at the last part of step by step guide on how to simulate STM32 project in Proteus.
+
+ 13. Create a new Proteus project and place STM32F40xx i.e. the same MCU for which the project was created in STM32Cube IDE. 
+
+
+ 14. After creation of the circuit as per requirement. Double click on the the MCU part to open settings.
+Next to the Program File option, give full path to the Hex file generated using STM32Cube IDE.
+Then set the external crystal frequency to 8M (i.e. 8 MHz). Click OK to save the changes.
+
+ 15. Click on debug and simulate using simulation.
 
 
 ## STM 32 CUBE PROGRAM :
